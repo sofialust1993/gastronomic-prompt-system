@@ -1,97 +1,74 @@
-# Gastronomic Prompt System with AI
+# Sistema de Prompts para la Creación de Contenido Gastronómico con Inteligencia Artificial
 
-## Project Overview
+## Introducción
 
-Restaurants rely heavily on social media to communicate their identity and attract customers.
-# Gastronomic Prompt System with AI
+Los restaurantes dependen cada vez más de redes sociales como Instagram para comunicar su identidad y atraer clientes. Estas plataformas se han convertido en espacios clave para mostrar platos, transmitir atmósferas y construir una marca gastronómica.
 
-## Project Overview
+Sin embargo, generar contenido atractivo de manera constante requiere tiempo, creatividad y una estrategia clara. Muchos restaurantes no cuentan con los recursos necesarios para producir contenido original, lo que suele resultar en publicaciones genéricas que no reflejan la experiencia real del lugar.
 
-Restaurants rely heavily on social media to communicate their identity and attract customers. Platforms such as Instagram have become essential spaces to showcase dishes, atmosphere and culinary experiences.
+La inteligencia artificial permite generar contenido rápidamente, pero la calidad de los resultados depende en gran medida de cómo se formulen los prompts.
 
-However, producing engaging content consistently requires time, creativity and a clear communication strategy. Many restaurants struggle to maintain a strong online presence and often publish generic content that does not reflect the true experience of the place.
+## Problema
 
-Artificial intelligence can help generate content quickly, but the quality of the output depends strongly on the prompt used. When prompts are vague, the results tend to be generic and less useful.
+Muchos restaurantes necesitan producir contenido frecuente para redes sociales, pero no siempre cuentan con el tiempo o el conocimiento necesario para hacerlo de manera efectiva.
 
-This project explores how optimized prompts can improve the generation of gastronomic content using AI.
+Cuando se utilizan herramientas de inteligencia artificial con prompts poco específicos, los resultados suelen ser genéricos y poco útiles para comunicar la identidad del restaurante.
 
----
+## Propuesta de solución
 
-## Problem
+Este proyecto propone desarrollar un sistema de prompts optimizados para generar contenido gastronómico utilizando inteligencia artificial.
 
-Many restaurants need to generate frequent content for social media but lack the resources or creative strategy to do so effectively. As a result, their posts often become repetitive, generic or disconnected from the restaurant's identity.
+Los prompts incluyen elementos como:
 
-Although AI tools can generate text quickly, poorly designed prompts often produce low quality results.
+- rol del modelo
+- contexto
+- objetivo comunicacional
+- tono
+- formato del contenido
 
----
+De esta forma se busca obtener resultados más específicos, creativos y alineados con la identidad de un restaurante.
 
-## Proposed Solution
+## Objetivos
 
-This project develops a system of optimized prompts designed to generate gastronomic content using artificial intelligence.
+### Objetivo general
 
-These prompts include structured elements such as:
+Desarrollar un sistema de prompts que permita generar contenido gastronómico atractivo utilizando inteligencia artificial.
 
-- role definition
-- contextual information
-- communication objective
-- tone specification
-- output format
+### Objetivos específicos
 
-By structuring prompts in this way, the AI can produce more relevant and creative content.
+- Diseñar prompts para distintos tipos de contenido gastronómico
+- Comparar prompts simples con prompts optimizados
+- Analizar cómo la estructura del prompt influye en la calidad del resultado
+- Implementar una prueba de concepto en un Jupyter Notebook
 
----
+## Metodología
 
-## Objectives
+El proyecto se basa en la experimentación con prompts.
 
-**General Objective**
+Primero se diseñan prompts básicos para distintos tipos de contenido gastronómico. Luego se desarrollan versiones optimizadas que incorporan más contexto, instrucciones claras y un tono definido.
 
-Develop a prompt system capable of generating engaging gastronomic content using AI.
+Finalmente se comparan los resultados obtenidos para analizar cómo las mejoras en el prompt influyen en la calidad del contenido generado.
 
-**Specific Objectives**
-
-- Design prompts for different types of gastronomic content
-- Compare basic prompts with optimized prompts
-- Analyze how prompt structure affects the quality of generated text
-- Demonstrate the approach through a proof of concept using a Jupyter Notebook
-
----
-
-## Methodology
-
-The project follows an experimental approach based on prompt comparison.
-
-First, simple prompts are created for different types of content. Then optimized prompts are developed by adding context, role definition, tone and structural instructions.
-
-Both versions are analyzed in order to observe improvements in the generated content.
-
----
-
-## Technologies Used
+## Tecnologías utilizadas
 
 - Python
 - Jupyter Notebook
 - GitHub
-- Prompt Engineering techniques
+- Técnicas de Prompt Engineering
 
----
+## Prueba de concepto
 
-## Proof of Concept
+El notebook incluido en este repositorio presenta varios ejemplos de generación de contenido gastronómico:
 
-The notebook included in this repository demonstrates several prompt experiments:
+- captions para Instagram
+- ideas de contenido gastronómico
+- descripciones de platos
+- prompts para generación de imágenes gastronómicas
 
-- Instagram caption generation
-- Content idea generation
-- Dish description generation
-- Visual prompt generation for food images
+En cada caso se comparan prompts simples con prompts optimizados.
 
-Each case compares a basic prompt with an optimized version.
+## Conclusión
 
----
+Este proyecto demuestra que el diseño del prompt tiene un impacto directo en la calidad del contenido generado por inteligencia artificial.
 
-## Conclusion
-
-The results show that prompt design has a significant impact on the quality of AI generated content.
-
-By incorporating context, tone, objectives and structure, prompts can guide AI systems to produce more relevant and engaging gastronomic content.
-
-This approach can be useful for restaurants, marketers and content creators working in the food industry.
+Los prompts optimizados permiten obtener resultados más específicos y útiles, lo que puede ayudar a restaurantes y creadores de contenido a producir material gastronómico más atractivo para redes sociales.
